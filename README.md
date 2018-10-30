@@ -3,7 +3,7 @@ Simple and straightforward sublass of UITextfield to manage string suggestions
 
 Plain        | Attributed
 ------------- | -------------
-![Plain](http://i.imgur.com/SvyLreh.png?1)  | ![Attributed](http://i.imgur.com/qlMgLaB.png?1)
+![Plain](http://i.imgur.com/SvyLreh.png?1) 
 
 
 ## Installation
@@ -54,13 +54,6 @@ autocompleteTextfield.onSelect = {[weak self] text, indexpath in
 }
 ```
 It's that easy! Feel free to use it, don't worry, it's free. :)
-
-## Example Code:
-In the example project, I used [Google Places Autocomplete API](https://developers.google.com/places/documentation/autocomplete) to show the usage of this library. For testing purposes i created my own google api key.
-
-If you want to create your own Google Api Key follow the steps in this [link](https://developers.google.com/maps/documentation/javascript/tutorial#api_key)
-
-##### Note: Recent updates in google places API requires you to enable "Google Places API Web Service" and use a Server Key instead of an iOS key. To do so, go to [Google Developers Console](https://console.developers.google.com/).
 
 ## License
 AutocompleteTextfield is under [MIT license](http://opensource.org/licenses/MIT). See LICENSE for details.
